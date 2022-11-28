@@ -102,7 +102,7 @@ function reAuth() {
   var queryStringData = {
       response_type: "token",
       client_id: CLIENT_ID,
-      redirect_uri: "https://stoltenbergpeter.github.io/groupActivation/agentgreeting.html"
+      redirect_uri: "https://stoltenbergpeter.github.io/utsa/index.html"
   }
   window.localStorage.clear();
 
@@ -114,7 +114,7 @@ function executeworkflowB() {
             type: "POST",
             contentType: 'application/json',
             data: JSON.stringify({
-                "flowId": "d22e745e-1de7-43ff-8ac1-a35597bdc93f"
+                "flowId": "c7ee1a12-3bbc-4c3c-94fc-eb572571f13c"
             }),
             dataType: 'json',
             async: true,
