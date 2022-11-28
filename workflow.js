@@ -89,7 +89,7 @@ if (window.location.hash) {
   var queryStringData = {
       response_type: "token",
       client_id: CLIENT_ID,
-      redirect_uri: "https://stoltenbergpeter.github.io/groupActivation/agentgreeting.html"
+      redirect_uri: "https://stoltenbergpeter.github.io/utsa/index.html"
   }
   window.localStorage.clear();
 
